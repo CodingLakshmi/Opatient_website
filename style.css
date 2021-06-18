@@ -1,0 +1,273 @@
+Body {
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading-image {
+  width: 100%;
+  height: 670px;
+  margin-bottom: 0px;
+  clear:bottom;
+}
+
+/* .box1 {
+  background-color: #86C1D4;
+  height: 400px;
+} */
+
+.box1 {
+  height: 1300px;
+  /* background-color: #7098DA; */
+}
+
+.box1-extend {
+  height: 1700px;
+  /* background-color: #7098DA; */
+}
+
+.pTag5 {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+  line-height: 1.5;
+  color: #005792;
+}
+
+.aTag {
+  color: #1F3C88;
+  font-size: 16px;
+}
+
+.aTag:hover {
+  color: #1F3C88;
+  font-size: 16px;
+}
+
+.h2-title {
+  text-align: left;
+  margin-inline-start: 200px;
+  color: #1F3C88;
+}
+
+.pTag {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  padding: 20px 0px 0px 20px;
+  height: 60px;
+  width: 200px;
+}
+
+ul#co {
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+#co li {
+  display: inline;
+  padding: 0 1em 0 0;
+  margin-right: 25px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #89c2d9;
+}
+
+a:hover {
+  font-size: 20px;
+  text-decoration: underline;
+  color: #00296b;
+}
+
+#contact {
+	color: black;
+	min-height: 400px;
+	padding: 20px 0;
+	width: 100%;
+	flex-direction: column;
+}
+
+#contact h2 {
+	color: #142850;
+	text-transform: uppercase;
+}
+
+#contact form {
+	max-width: 640px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+}
+
+#contact form>* {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F4F9F9;
+}
+
+#contact input {
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+	margin-bottom: 16px;
+	color: white;
+}
+
+#contact textarea {
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+	margin-bottom: 16px;
+	height: 120px;
+	resize: none;
+	color: black;
+}
+
+#contact button {
+	width: 50%;
+	background-color: #8AB6D6;
+	color: black;
+
+	padding: 8px 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+#contact button:hover {
+	width: 50%;
+	background-color: #2978B5;
+	color: white;
+
+	padding: 8px 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.footer {
+  background-color: #5A92AF;
+  height: 520px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 250px;
+  top: 10px;
+}
+
+.header {
+  position: relative;
+  bottom: 70px;
+}
+
+.welcome-info {
+  margin-inline-start: 400px;
+  margin-inline-end: 400px;
+  line-height: 1.7;
+}
+
+.collapsible {
+  background-color: #8AB6D6;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #2978B5;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #b1cbde;
+}
+
+.Advertisements {
+  margin-inline-start: 300px;
+  margin-inline-end: 300px;
+  margin-bottom: 100px;
+  height: auto;
+}
+
+.Image1 {
+  margin-inline-start: 200px;
+  height: 200px;
+  width: 800px;
+}
+
+.Image2 {
+  margin-inline-start: 200px;
+  height: 700px;
+  width: 500px;
+}
+
+.Image3 {
+  margin-inline-start: 200px;
+  height: 400px;
+  width: 500px;
+}
+
+.box2 {
+  height: 300px;
+
+}
+
+.box3 {
+  height: 300px;
+}
+
+.pTag6 {
+  margin-inline-start: 400px;
+  margin-inline-end: 400px;
+  line-height: 1.5
+}
